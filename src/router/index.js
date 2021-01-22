@@ -5,10 +5,7 @@ import login from "@v/login/index.vue";
 import Home from "@/Home/index.vue";
 Vue.use(VueRouter);
 import module from './modole'
-// module.forEach((item)=>{
-//   item.query={t:Date.now()}
-// })
-// console.log(module)
+
 export const currencyRoutes = [{
     path: "/",
     name: "login",
@@ -23,12 +20,6 @@ export const currencyRoutes = [{
 
   },
 ];
-
-// const creatRouter = () => {
-//   return new VueRouter({
-//     routes: currencyRoutes
-//   });
-// };
 const router = new VueRouter({
   mode: "hash",
   base: process.env.BASE_URL,
