@@ -5,7 +5,6 @@ import {
 // *********************************************请求地址前缀*********************************************
 // axios.defaults.withCredentials = true; //让ajax携带cookie
 // axios.defaults.baseURL = 'https://cms.idazoo.com'
-
 // *********************************************请求超时*********************************************
 const service = axios.create({
     timeout: 15000
